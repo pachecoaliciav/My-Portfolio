@@ -16,6 +16,13 @@ body {
     margin: 0;
 }
 
+@media (min-width: 817px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 /* Header */
 
 header {
@@ -105,4 +112,34 @@ a:hover {
     text-decoration: none;
     padding: 0.6rem 1rem;
     border-radius: 5px;
+}
+
+.project-card a:hover {
+    background-color: #a5a68f;
+    color: white;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #d9b2a9;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
 }
