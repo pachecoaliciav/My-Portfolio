@@ -19,12 +19,7 @@ body {
     margin: 0;
 }
 
-@media (min-width: 500px){
-    nav ul {
-        justify-content: center;
-    }
-}
-@media (min-width: 817px) {
+@media (min-width: 500px) {
     nav ul {
         flex-direction: column;
         justify-content: center;
