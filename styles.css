@@ -143,3 +143,9 @@ footer {
 footer p {
     margin: 0;
 }
+
+section img {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
