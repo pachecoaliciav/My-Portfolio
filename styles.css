@@ -5,6 +5,9 @@ sage green= #A5A68F
 dusty rose= #D9B2A9
 neutral pink= #F2DBD5
 offwhite= #F4EEED
+mauve rose= #8b5e57
+slate gray= #333
+white
 */
 
 /* GLOBAL (base) MOBILE FIRST */
@@ -132,6 +135,10 @@ section img {
     margin-bottom: 1rem;
 }
 
+.image-container {
+    display: flex;
+    gap: 10px;
+}
 /* Footer */
 
 footer {
